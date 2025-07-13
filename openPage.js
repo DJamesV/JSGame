@@ -1,27 +1,27 @@
 const cardsCanvas = document.getElementById("cards");
 const cardsData = [
     {
-        imgSrc: 'https://picsum.photos/200/400',
+        imgSrc: 'https://picsum.photos/400/400',
         title: 'weird man',
         info: "He's a really weird dudeeee"
     },
     {
-        imgSrc: 'https://picsum.photos/200/400',
+        imgSrc: 'https://picsum.photos/400/400',
         title: 'weird man',
         info: "He's a really weird dudeeee"
     },
     {
-        imgSrc: 'https://picsum.photos/200/400',
+        imgSrc: 'https://picsum.photos/400/400',
         title: 'weird man',
         info: "He's a really weird dudeeee"
     },
     {
-        imgSrc: 'https://picsum.photos/200/400',
+        imgSrc: 'https://picsum.photos/400/400',
         title: 'weird man',
         info: "He's a really weird dudeeee"
     },
     {
-        imgSrc: 'https://picsum.photos/200/400',
+        imgSrc: 'https://picsum.photos/400/400',
         title: 'weird man',
         info: "He's a really weird dudeeee"
     }
