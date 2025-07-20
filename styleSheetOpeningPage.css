@@ -1,5 +1,6 @@
-header {
+header { /*maybe include custom font? image f or top*/
     position:sticky;
+    font-size: 9vw; /**/
     top: 0;
     left: 0;
     width: 100%;
@@ -13,10 +14,18 @@ footer {
     left: 0;
     width:100%;
     background-color: darksalmon;
+    font-size: 4vw; /**/
 }
 #rapper {
     margin: 0;
     width: 100%;
+}
+
+.logon {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80vw;
+    max-width: 400px;
 }
 
 .card {
