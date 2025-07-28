@@ -1,5 +1,5 @@
 const cardsCanvas = document.getElementById("cards");
-const cardsData = [
+var cardsData = [
     {
         imgSrc: 'https://picsum.photos/400/400',
         title: 'weird man',
@@ -26,6 +26,14 @@ const cardsData = [
         info: "He's a really weird dudeeee"
     }
 ]
+
+for(let i=0; i<3; i++){
+    cardsData.push({
+        imgSrc: 'https://picsum.photos/400/400',
+        title: 'weird man',
+        info: "He's a really weird dudeeee"
+    })
+}
 
 for(let i=0; i<cardsData.length; i++){
     cardsCanvas.innerHTML+=`
