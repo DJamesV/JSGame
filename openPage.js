@@ -1,37 +1,11 @@
 const cardsCanvas = document.getElementById("cards");
-var cardsData = [
-    {
-        imgSrc: 'https://picsum.photos/400/400',
-        title: 'weird man',
-        info: "He's a really weird dudeeee"
-    },
-    {
-        imgSrc: 'https://picsum.photos/400/400',
-        title: 'weird man',
-        info: "He's a really weird dudeeee"
-    },
-    {
-        imgSrc: 'https://picsum.photos/400/400',
-        title: 'weird man',
-        info: "He's a really weird dudeeee"
-    },
-    {
-        imgSrc: 'https://picsum.photos/400/400',
-        title: 'weird man',
-        info: "He's a really weird dudeeee"
-    },
-    {
-        imgSrc: 'https://picsum.photos/400/400',
-        title: 'weird man',
-        info: "He's a really weird dudeeee"
-    }
-]
+var cardsData = []
 
-for(let i=0; i<3; i++){
+for(let i=0; i<8; i++){
     cardsData.push({
         imgSrc: 'https://picsum.photos/400/400',
-        title: 'weird man',
-        info: "He's a really weird dudeeee"
+        title: 'Random Picture',
+        info: "This picture is taken from picsum.photos at 400x400 resolution."
     })
 }
 
